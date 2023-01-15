@@ -1,0 +1,19 @@
+
+[
+    
+    {
+    "name" : "Apple",
+    "productNumber" : 22,
+    "ceo" : "Tim",
+    "rating" : 99
+    },
+
+    {
+        "name" : "Tesla",
+        "productNumber" : 4,
+        "ceo" : "Elon",
+        "rating" : null
+    }
+
+
+]

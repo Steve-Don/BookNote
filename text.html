@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+    let companies = 
+`[
+    
+    {
+    "name" : "Apple",
+    "productNumber" : 22,
+    "ceo" : "Tim",
+    "rating" : 99
+    },
+
+    {
+        "name" : "Tesla",
+        "productNumber" : 4,
+        "ceo" : "Elon",
+        "rating" : null
+    }
+]`
+
+console.log(JSON.parse(companies)[0].name) //take the string and convert into a JS object
+//select the first company's name in the array which is apple 
+
+    
+    </script>
+</body>
+</html>
